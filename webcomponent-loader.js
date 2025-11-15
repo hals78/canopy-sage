@@ -11,6 +11,7 @@
     }
 
     if(script) {
+        debugger;
         url = script.src.replace('./webcomponent-loader.js', '');
         try {
             if(window && window['tpoceConfiguration']) {
@@ -33,6 +34,7 @@
 
     if(bundleConfig && body) {
         for(const val of ["runtime", "polyfills-es5", "polyfills", "vendor", "main"]) {
+            debugger;
             if(bundleConfig[val]) {
                 const js = Array.from(new Set(bundleConfig[val]['js'] || []));
                 // const css = Array.from(new Set(bundleConfig[val]['css'] || []));
