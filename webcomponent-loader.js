@@ -58,4 +58,4 @@
     } else {
         throw new Error('Failed to load Watson Candidate Assistant core library -- could not find head or body tag')
     }
-})({"main":{"js":["./main.d801cda3f6b4f73e.js"]},"polyfills":{"js":["./polyfills.27f3a70993215d4e.js"]},"runtime":{"js":["./runtime.57db86dddef8a927.js"]},"scripts":{"js":["./scripts.b312fb1f47250cb8.js"]}})
+})({"main":{"js":["./canopy-sage/main.d801cda3f6b4f73e.js"]},"polyfills":{"js":["./canopy-sage/polyfills.27f3a70993215d4e.js"]},"runtime":{"js":["./canopy-sage/runtime.57db86dddef8a927.js"]},"scripts":{"js":["./canopy-sage/scripts.b312fb1f47250cb8.js"]}})
