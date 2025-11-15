@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* ****************************************************************** */
+/*                                                                    */
+/* Licensed Materials - Property of IBM Corp.                         */
+/*                                                                    */
+/* 5900-A1H                                                           */
+/*  Copyright IBM Corp. 2017                                         */
+/*                                                                    */
+/* US Government Users Restricted Rights - Use,                       */
+/* duplication or disclosure restricted by GSA ADP Schedule           */
+/* Contract with IBM Corp.                                            */
+/*                                                                    */
+/* ****************************************************************** */
+/* code pattern is #F[type][hue][hue][hue]F00 which is invalid hex and would fail in browser but scss is ok with it*/
+:root {
+    --tpoce-font-family-light: ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
+    --tpoce-font-family-normal: ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
+    --tpoce-font-family-semibold: ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
+    --tpoce-font-family-bold: ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
+    --tpoce-background-image: none;
+    --tpoce-color-accent-foreground-1: #d1f0f7;
+    --tpoce-color-accent-background-1: #fff;
+    --tpoce-color-accent-foreground-10: #a0e3f0;
+    --tpoce-color-accent-background-10: #fff;
+    --tpoce-color-accent-foreground-20: #71cddd;
+    --tpoce-color-accent-background-20: #fff;
+    --tpoce-color-accent-foreground-30: #00b6cb;
+    --tpoce-color-accent-background-30: #fff;
+    --tpoce-color-accent-foreground-40: #12a3b4;
+    --tpoce-color-accent-background-40: #fff;
+    --tpoce-color-accent-foreground-50: #188291;
+    --tpoce-color-accent-background-50: #fff;
+    --tpoce-color-accent-foreground-60: #17616b;
+    --tpoce-color-accent-background-60: #fff;
+    --tpoce-color-accent-foreground-70: #164d56;
+    --tpoce-color-accent-background-70: #fff;
+    --tpoce-color-accent-foreground-80: #13393e;
+    --tpoce-color-accent-background-80: #fff;
+    --tpoce-color-accent-foreground-90: #122a2e;
+    --tpoce-color-accent-background-90: #fff;
+    --tpoce-color-background-primary-1: #fff;
+    --tpoce-color-background-primary-10: #fff;
+    --tpoce-color-background-primary-20: #fff;
+    --tpoce-color-background-primary-30: #fff;
+    --tpoce-color-background-primary-40: #fff;
+    --tpoce-color-background-primary-50: #fff;
+    --tpoce-color-background-primary-60: #fff;
+    --tpoce-color-background-primary-70: #fff;
+    --tpoce-color-background-primary-80: #fff;
+    --tpoce-color-background-primary-90: #fff;
+    --tpoce-color-background-secondary-1: #e3ecec;
+    --tpoce-color-background-secondary-10: #d0dada;
+    --tpoce-color-background-secondary-20: #b8c1c1;
+    --tpoce-color-background-secondary-30: #9fa7a7;
+    --tpoce-color-background-secondary-40: #8c9696;
+    --tpoce-color-background-secondary-50: #6f7878;
+    --tpoce-color-background-secondary-60: #535a5a;
+    --tpoce-color-background-secondary-70: #424747;
+    --tpoce-color-background-secondary-80: #343334;
+    --tpoce-color-background-secondary-90: #272727;
+    --tpoce-color-background-tertiary-1: #e1ebf7;
+    --tpoce-color-background-tertiary-10: #c8daf4;
+    --tpoce-color-background-tertiary-20: #a8c0f3;
+    --tpoce-color-background-tertiary-30: #79a6f6;
+    --tpoce-color-background-tertiary-40: #5392ff;
+    --tpoce-color-background-tertiary-50: #2d74da;
+    --tpoce-color-background-tertiary-60: #1f57a4;
+    --tpoce-color-background-tertiary-70: #25467a;
+    --tpoce-color-background-tertiary-80: #1d3458;
+    --tpoce-color-background-tertiary-90: #19273c;
+    --tpoce-color-accent-1: #d1f0f7;
+    --tpoce-color-accent-10: #a0e3f0;
+    --tpoce-color-accent-20: #71cddd;
+    --tpoce-color-accent-30: #00b6cb;
+    --tpoce-color-accent-40: #12a3b4;
+    --tpoce-color-accent-50: #188291;
+    --tpoce-color-accent-60: #17616b;
+    --tpoce-color-accent-70: #164d56;
+    --tpoce-color-accent-80: #13393e;
+    --tpoce-color-accent-90: #122a2e;
+    --tpoce-color-accent-inverse-1: #fff;
+    --tpoce-color-accent-inverse-10: #fff;
+    --tpoce-color-accent-inverse-20: #fff;
+    --tpoce-color-accent-inverse-30: #fff;
+    --tpoce-color-accent-inverse-40: #fff;
+    --tpoce-color-accent-inverse-50: #fff;
+    --tpoce-color-accent-inverse-60: #fff;
+    --tpoce-color-accent-inverse-70: #fff;
+    --tpoce-color-accent-inverse-80: #fff;
+    --tpoce-color-accent-inverse-90: #fff;
+    --tpoce-color-foreground-primary-1: #e3ecec;
+    --tpoce-color-foreground-primary-10: #d0dada;
+    --tpoce-color-foreground-primary-20: #b8c1c1;
+    --tpoce-color-foreground-primary-30: #9fa7a7;
+    --tpoce-color-foreground-primary-40: #8c9696;
+    --tpoce-color-foreground-primary-50: #6f7878;
+    --tpoce-color-foreground-primary-60: #535a5a;
+    --tpoce-color-foreground-primary-70: #424747;
+    --tpoce-color-foreground-primary-80: #343334;
+    --tpoce-color-foreground-primary-90: #272727;
+    --tpoce-color-foreground-secondary-1: #fff;
+    --tpoce-color-foreground-secondary-10: #d0dada;
+    --tpoce-color-foreground-secondary-20: #b8c1c1;
+    --tpoce-color-foreground-secondary-30: #9fa7a7;
+    --tpoce-color-foreground-secondary-40: #8c9696;
+    --tpoce-color-foreground-secondary-50: #6f7878;
+    --tpoce-color-foreground-secondary-60: #535a5a;
+    --tpoce-color-foreground-secondary-70: #424747;
+    --tpoce-color-foreground-secondary-80: #343334;
+    --tpoce-color-foreground-secondary-90: #272727;
+    --tpoce-color-foreground-tertiary-1: #fff;
+    --tpoce-color-foreground-tertiary-10: #fff;
+    --tpoce-color-foreground-tertiary-20: #fff;
+    --tpoce-color-foreground-tertiary-30: #fff;
+    --tpoce-color-foreground-tertiary-40: #fff;
+    --tpoce-color-foreground-tertiary-50: #fff;
+    --tpoce-color-foreground-tertiary-60: #fff;
+    --tpoce-color-foreground-tertiary-70: #fff;
+    --tpoce-color-foreground-tertiary-80: #fff;
+    --tpoce-color-foreground-tertiary-90: #fff;
+}
